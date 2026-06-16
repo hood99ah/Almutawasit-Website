@@ -1,41 +1,91 @@
 ```html
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-<meta charset="UTF-8">
-<title>مجموعة المتوسط القابضة</title>
-</head>
+<section class="hero">
 
-<body style="background:black;color:white;text-align:center;font-family:Arial;padding:50px;">
+    <div class="hero-content">
 
-<h1 style="color:gold;">مجموعة المتوسط القابضة</h1>
+        <div class="logo-text">
+            ⛵
+        </div>
 
-<h2>ALMUTAWASIT HOLDING GROUP</h2>
+        <h1>مجموعة المتوسط القابضة</h1>
 
-<p>
-شريككم في الاستيراد والتصدير والتوريد من الصين إلى جميع أنحاء العالم
-</p>
+        <h2>ALMUTAWASIT HOLDING GROUP</h2>
 
-<p>
-📍 Yiwu - China
-</p>
+        <p>
+            شريككم الموثوق في الاستيراد والتصدير
+            وإدارة الصفقات التجارية الدولية من الصين
+            إلى الأسواق العالمية.
+        </p>
 
-<p>
-📞 +86 195550552783
-</p>
+        <div class="hero-buttons">
 
-<a href="https://wa.me/8619555052783"
-style="
-background:#25D366;
-color:white;
-padding:15px 30px;
-text-decoration:none;
-border-radius:10px;
-font-size:20px;
-">
-تواصل معنا عبر واتساب
-</a>
+            <a href="https://wa.me/8619555052783"
+               target="_blank"
+               class="whatsapp-btn">
+               تواصل معنا عبر واتساب
+            </a>
 
-</body>
-</html>
+        </div>
+
+    </div>
+
+</section>
+
+<style>
+
+.hero{
+    min-height:100vh;
+    background:#0b0b0b;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px;
+}
+
+.hero-content{
+    max-width:900px;
+}
+
+.logo-text{
+    font-size:80px;
+    color:#c9a86a;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    color:#c9a86a;
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+.hero h2{
+    color:white;
+    letter-spacing:3px;
+    margin-bottom:30px;
+}
+
+.hero p{
+    color:#ddd;
+    font-size:22px;
+    line-height:1.8;
+    margin-bottom:40px;
+}
+
+.whatsapp-btn{
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    padding:18px 35px;
+    border-radius:50px;
+    font-size:20px;
+    font-weight:bold;
+    display:inline-block;
+}
+
+.whatsapp-btn:hover{
+    transform:scale(1.05);
+}
+
+</style>
 ```
