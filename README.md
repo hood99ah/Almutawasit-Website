@@ -1,206 +1,41 @@
-```css
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Cairo',sans-serif;
-}
+```html
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>مجموعة المتوسط القابضة</title>
+</head>
 
-body{
-    background:#0B0B0B;
-    color:#fff;
-    line-height:1.8;
-}
+<body style="background:black;color:white;text-align:center;font-family:Arial;padding:50px;">
 
-.container{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
-}
+<h1 style="color:gold;">مجموعة المتوسط القابضة</h1>
 
-header{
-    background:rgba(0,0,0,0.95);
-    border-bottom:1px solid #C9A86A;
-    position:fixed;
-    width:100%;
-    top:0;
-    z-index:1000;
-}
+<h2>ALMUTAWASIT HOLDING GROUP</h2>
 
-.nav{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:15px 0;
-}
+<p>
+شريككم في الاستيراد والتصدير والتوريد من الصين إلى جميع أنحاء العالم
+</p>
 
-.logo img{
-    height:70px;
-}
+<p>
+📍 Yiwu - China
+</p>
 
-nav a{
-    color:#fff;
-    text-decoration:none;
-    margin:0 12px;
-    transition:.3s;
-}
+<p>
+📞 +86 195550552783
+</p>
 
-nav a:hover{
-    color:#C9A86A;
-}
+<a href="https://wa.me/8619555052783"
+style="
+background:#25D366;
+color:white;
+padding:15px 30px;
+text-decoration:none;
+border-radius:10px;
+font-size:20px;
+">
+تواصل معنا عبر واتساب
+</a>
 
-.hero{
-    height:100vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    background:linear-gradient(
-    rgba(0,0,0,.75),
-    rgba(0,0,0,.75)
-    ),
-    url('images/hero.jpg');
-    background-size:cover;
-    background-position:center;
-}
-
-.hero h1{
-    font-size:60px;
-    color:#C9A86A;
-    margin-bottom:20px;
-}
-
-.hero p{
-    max-width:700px;
-    margin:auto;
-    font-size:22px;
-}
-
-.buttons{
-    margin-top:30px;
-}
-
-.btn{
-    display:inline-block;
-    padding:14px 30px;
-    border-radius:40px;
-    text-decoration:none;
-    margin:10px;
-    transition:.3s;
-}
-
-.gold{
-    background:#C9A86A;
-    color:#000;
-    font-weight:bold;
-}
-
-.gold:hover{
-    transform:translateY(-3px);
-}
-
-.whatsapp{
-    border:1px solid #25D366;
-    color:#25D366;
-}
-
-.whatsapp:hover{
-    background:#25D366;
-    color:#fff;
-}
-
-section{
-    padding:100px 0;
-}
-
-h2{
-    text-align:center;
-    color:#C9A86A;
-    margin-bottom:40px;
-    font-size:38px;
-}
-
-.about p,
-.contact p{
-    max-width:800px;
-    margin:auto;
-    text-align:center;
-    font-size:20px;
-}
-
-.cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:25px;
-}
-
-.card{
-    border:1px solid #C9A86A;
-    padding:40px 20px;
-    text-align:center;
-    border-radius:15px;
-    transition:.3s;
-}
-
-.card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 0 20px rgba(201,168,106,.3);
-}
-
-.countries{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:20px;
-}
-
-.countries span{
-    border:1px solid #C9A86A;
-    padding:12px 25px;
-    border-radius:30px;
-}
-
-footer{
-    border-top:1px solid #C9A86A;
-    text-align:center;
-    padding:30px;
-    color:#C9A86A;
-}
-
-.floating-whatsapp{
-    position:fixed;
-    bottom:25px;
-    left:25px;
-    width:60px;
-    height:60px;
-    background:#25D366;
-    border-radius:50%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    color:#fff;
-    text-decoration:none;
-    font-size:28px;
-    box-shadow:0 5px 20px rgba(0,0,0,.3);
-}
-
-@media(max-width:768px){
-
-.hero h1{
-    font-size:38px;
-}
-
-.hero p{
-    font-size:18px;
-}
-
-.nav{
-    flex-direction:column;
-}
-
-nav{
-    margin-top:10px;
-}
-
-}
+</body>
+</html>
 ```
